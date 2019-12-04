@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Welcome from '../pages/Welcome_page.vue';
+import Welcome from '../pages/Welcome.vue';
 import Login from '../pages/Login';
 import Register from '../pages/Register.vue';
 import E404 from '../pages/E404.vue';
