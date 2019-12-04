@@ -1,10 +1,6 @@
 <template>
 	<div id="app">
-		<div id="nav">
-			<router-link to="/login">Login</router-link>
-			<router-link to="/register">Register</router-link>
-		</div>
-		<router-view />
+		<router-view></router-view>
 	</div>
 </template>
 
@@ -15,10 +11,8 @@
 		-moz-osx-font-smoothing: grayscale
 		text-align: center
 		color: #2c3e50
-		y
 	#nav
 		padding: 30px
-
 		a
 			display: block
 			margin-bottom: 30px
@@ -28,3 +22,7 @@
 			&.router-link-exact-active
 				color: #42b983
 </style>
+<script>
+export default {
+};
+</script>
